@@ -12,7 +12,6 @@ const GamesListViewModel = (): GamesListViewModelReturnProps => {
 
   const loadGames = (): void => {
     const allGames = GamesService.loadGamesList();
-    console.log('🚀 ~ loadGames ~ allGames:', allGames)
     setGamesList(allGames);
   };
 
