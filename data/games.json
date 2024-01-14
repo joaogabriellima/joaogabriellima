@@ -1,0 +1,392 @@
+[
+  {
+    "id": 1,
+    "name": "Assassin's Creed II",
+    "status": "Paused",
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 2,
+    "name": "Crisis Core FF7",
+    "status": null,
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 3,
+    "name": "Cyberpunk 2077",
+    "status": null,
+    "platform": "PC",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 4,
+    "name": "Dark Souls 3",
+    "status": null,
+    "platform": "PC",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 5,
+    "name": "Days Gone",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 6,
+    "name": "Dead Cells",
+    "status": "In Progress",
+    "platform": "Switch",
+    "dropReason": "N/A",
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 7,
+    "name": "Death's Door",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 8,
+    "name": "Dragons Dogma Dark Arisen",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 9,
+    "name": "Dragons Dogma II",
+    "status": null,
+    "platform": null,
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 10,
+    "name": "Final Fantasy VII Remake",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 11,
+    "name": "God of War",
+    "status": "Paused",
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 12,
+    "name": "God of War Ragnarok",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 13,
+    "name": "Gotham Knights",
+    "status": "Paused",
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 14,
+    "name": "GTA SA Definitive",
+    "status": "Dropped",
+    "platform": "Switch",
+    "dropReason": "N/A",
+    "conclusionLevel": null,
+    "conclusionDate": "11/01/2024",
+    "imageUrl": null
+  },
+  {
+    "id": 15,
+    "name": "Hades",
+    "status": null,
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 16,
+    "name": "Hellblade Senua's Sacrifice",
+    "status": null,
+    "platform": "PC",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 17,
+    "name": "Hollow Knight",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 18,
+    "name": "Kena Bridge of the Spirits",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 19,
+    "name": "Kingdom Hearts III",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 20,
+    "name": "Legend of Zelda Breath of the Wild",
+    "status": null,
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 21,
+    "name": "Lies of P",
+    "status": null,
+    "platform": null,
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 22,
+    "name": "Medievil",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 23,
+    "name": "Need for Speed Heat",
+    "status": "Paused",
+    "platform": "PC",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 24,
+    "name": "NieR Automata",
+    "status": "Concluded",
+    "platform": "Switch",
+    "dropReason": "N/A",
+    "conclusionLevel": null,
+    "conclusionDate": "08/01/2024",
+    "imageUrl": null
+  },
+  {
+    "id": 25,
+    "name": "Nioh",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 26,
+    "name": "Nioh 2",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 27,
+    "name": "Ori And The Blind Forest",
+    "status": null,
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 28,
+    "name": "Ori and the Will of Wisps",
+    "status": null,
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 29,
+    "name": "Outer Wilds",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 30,
+    "name": "Plague Tale Requiem",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 31,
+    "name": "Pokemon Legends Arceus",
+    "status": null,
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 32,
+    "name": "Pokemon Violet",
+    "status": null,
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 33,
+    "name": "Red Dead Redemption 2",
+    "status": "Paused",
+    "platform": "PC",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 34,
+    "name": "Resident Evil 2",
+    "status": null,
+    "platform": null,
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 35,
+    "name": "Song of Nunu",
+    "status": "Concluded",
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": "100%",
+    "conclusionDate": "11/01/2024",
+    "imageUrl": null
+  },
+  {
+    "id": 36,
+    "name": "Super Mario Odyssey",
+    "status": "In Progress",
+    "platform": "Switch",
+    "dropReason": null,
+    "conclusionLevel": "N/A",
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 37,
+    "name": "The Witcher 3",
+    "status": null,
+    "platform": null,
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 38,
+    "name": "Wo Long Fallen Dynasty",
+    "status": null,
+    "platform": null,
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  },
+  {
+    "id": 39,
+    "name": "Yakuza Like a Dragon",
+    "status": null,
+    "platform": "PS5",
+    "dropReason": null,
+    "conclusionLevel": null,
+    "conclusionDate": null,
+    "imageUrl": null
+  }
+]
