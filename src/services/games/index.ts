@@ -1,9 +1,10 @@
 import games from '../../../data/games.json'
+import { type Game } from './types';
 
-const loadGamesList = () => {
+const loadGamesList = (): Game[] => {
   return games;
 };
 
 export default {
-  loadGamesList,
+  loadGamesList
 };

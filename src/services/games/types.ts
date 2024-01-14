@@ -3,6 +3,7 @@ export enum GameStatus {
   IN_PROGRESS,
   PAUSED,
   DROPPED,
+  CONCLUDED,
 }
 
 export enum GamePlatform {
@@ -25,6 +26,6 @@ export interface Game {
   platform: GamePlatform;
   dropReason?: string;
   conclusionLevel?: GameConclusionLevel;
-  conclusionDate?: Date;
+  conclusionDate?: string;
   imageUrl?: string;
 }

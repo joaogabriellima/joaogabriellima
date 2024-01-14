@@ -1,8 +1,7 @@
-import React from "react";
-import GamesView from "./Games.view";
+import React from 'react';
+import GamesView from './Games.view';
 
-
-const Games = () => {
+const Games = (): JSX.Element => {
   return <GamesView />
 };
 

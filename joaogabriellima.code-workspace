@@ -6,6 +6,8 @@
 	],
 	"settings": {
 		"editor.tabSize": 2,
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"eslint.codeActionsOnSave.rules": [ "source.fixAll.eslint"],
+		"eslint.validate": ["javascript"]
 	}
 }
