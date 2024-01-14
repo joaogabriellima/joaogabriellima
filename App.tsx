@@ -1,14 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+import Games from './src/screens/Games';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>hi</Text>
-      <StatusBar style="auto" />
-    </View>
+      <Games />
   );
 }
+
+export default App;
 
 const styles = StyleSheet.create({
   container: {
