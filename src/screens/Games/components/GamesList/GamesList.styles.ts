@@ -2,9 +2,15 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   font-family: Arial !important;
-  flex-direction: row;
   display: flex;
-  height: fit-content;
+`;
+
+export const GamesGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 450px);
+  grid-gap: 1rem;
+
 `;
 
 export const Title = styled.p`
