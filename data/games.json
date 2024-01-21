@@ -30,16 +30,6 @@
     "imageUrl": "https://cdn.thegamesdb.net/images/original/boxart/front/14517-1.jpg"
   },
   {
-    "id": 4,
-    "name": "Dark Souls 3",
-    "status": 1,
-    "platform": 1,
-    "dropReason": null,
-    "conclusionLevel": null,
-    "conclusionDate": null,
-    "imageUrl": "https://cdn.thegamesdb.net/images/original/boxart/front/35414-1.jpg"
-  },
-  {
     "id": 5,
     "name": "Days Gone",
     "status": 1,
@@ -48,16 +38,6 @@
     "conclusionLevel": null,
     "conclusionDate": null,
     "imageUrl": "https://cdn.thegamesdb.net/images/original/boxart/front/38442-1.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Dead Cells",
-    "status": 2,
-    "platform": 2,
-    "dropReason": "N/A",
-    "conclusionLevel": null,
-    "conclusionDate": null,
-    "imageUrl": "https://cdn.thegamesdb.net/images/original/boxart/front/60506-1.jpg"
   },
   {
     "id": 7,
@@ -355,8 +335,8 @@
     "status": 2,
     "platform": 2,
     "dropReason": null,
-    "conclusionLevel": 4,
-    "conclusionDate": null,
+    "conclusionLevel": 5,
+    "conclusionDate": "21/01/2024",
     "imageUrl": "https://cdn.thegamesdb.net/images/thumb/boxart/front/42320-1.jpg"
   },
   {
