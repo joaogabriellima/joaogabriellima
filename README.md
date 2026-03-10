@@ -4,8 +4,9 @@
 
 ## Hello there
 
-  My name is Joao Gabriel and I am a brazilian <strong>front-end developer</strong>.<br>
-  Currently working at [Cuponomia](https://www.cuponomia.com.br/).
+I'm **João Gabriel**, a Brazilian **Senior Front-End Developer**.
+<br />
+Currently building things at **Cuponomia**.
 </p>
 
   ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
@@ -13,3 +14,9 @@
   ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
   ![React Native](https://img.shields.io/badge/-React%20Native-333333?style=flat&logo=react)
   ![Jest](https://img.shields.io/badge/-Jest-333333?style=flat&logo=jest)
+
+
+### 📫 Find me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/joaoggabriellima/
+- 📧 Email: joaoggabriellima@gmail.com
