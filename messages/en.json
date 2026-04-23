@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "title": "João Gabriel Lima | Web Developer & Product Builder",
+    "description": "I design and build web products end to end: UX, front-end, and production-ready delivery. Browse projects, experience, and how to reach me."
+  },
+  "nav": {
+    "logo": "Portfolio",
+    "about": "About",
+    "works": "Work",
+    "services": "Services",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "greeting": "Hi, I'm João Gabriel Lima",
+    "headline1": "Digital products",
+    "headline2": "from idea to production",
+    "sub": "Modern interfaces, high performance and a focus on what matters: shipping things that actually works.",
+    "emailPlaceholder": "you@email.com",
+    "cta": "Get in touch",
+    "statsYears": "Years of experience",
+    "statsProjects": "Projects shipped",
+    "statsClients": "Happy clients",
+    "portraitAlt": "Profile photo"
+  },
+  "language": {
+    "label": "Language",
+    "pt": "PT",
+    "en": "EN"
+  }
+}

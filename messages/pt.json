@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "title": "João Gabriel Lima | Desenvolvimento web e produtos digitais",
+    "description": "Crio e entrego produtos web de ponta a ponta: UX, front-end e aplicações prontas para produção.. Veja projetos, experiência e como falar comigo."
+  },
+  "nav": {
+    "logo": "Portfólio",
+    "about": "Sobre",
+    "works": "Trabalhos",
+    "services": "Serviços",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou João Gabriel Lima",
+    "headline1": "Produtos digitais",
+    "headline2": "do zero ao deploy",
+    "sub": "Interfaces rápidas e modernas, feitas pra funcionar bem e dar resultado.",
+    "emailPlaceholder": "seu@email.com",
+    "cta": "Falar comigo",
+    "statsYears": "Anos de experiência",
+    "statsProjects": "Projetos entregues",
+    "statsClients": "Clientes felizes",
+    "portraitAlt": "Foto de perfil"
+  },
+  "language": {
+    "label": "Idioma",
+    "pt": "PT",
+    "en": "EN"
+  }
+}
