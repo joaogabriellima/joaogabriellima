@@ -28,5 +28,24 @@
     "label": "Idioma",
     "pt": "PT",
     "en": "EN"
+  },
+  "pages": {
+    "about": {
+      "metaTitle": "Sobre | João Gabriel Lima",
+      "heading": "Sobre"
+    },
+    "works": {
+      "metaTitle": "Trabalhos | João Gabriel Lima",
+      "heading": "Trabalhos"
+    },
+    "services": {
+      "metaTitle": "Serviços | João Gabriel Lima",
+      "heading": "Serviços"
+    },
+    "contact": {
+      "metaTitle": "Contato | João Gabriel Lima",
+      "heading": "Contato",
+      "formLabel": "Formulário (campos de exemplo)"
+    }
   }
 }

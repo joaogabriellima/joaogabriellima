@@ -4,8 +4,9 @@ import { useState } from "react";
 import { Menu, X, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/language-switcher";
+import { cn } from "@/lib/utils";
 
 const socialLinks = [
   { href: "https://github.com/joaogabriellima" as const, icon: Github, label: "GitHub" },
@@ -13,15 +14,16 @@ const socialLinks = [
 ] as const;
 
 const navHrefs = [
-  { href: "/#about", key: "about" as const },
-  { href: "/#works", key: "works" as const },
-  { href: "/#services", key: "services" as const },
-  { href: "/#contact", key: "contact" as const },
-];
+  { href: "/about", key: "about" as const },
+  { href: "/works", key: "works" as const },
+  { href: "/services", key: "services" as const },
+  { href: "/contact", key: "contact" as const },
+] as const;
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const t = useTranslations("nav");
+  const pathname = usePathname();
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
@@ -36,15 +38,24 @@ export function Navbar() {
           </Link>
 
           <div className="hidden md:flex items-center gap-8">
-            {navHrefs.map((item) => (
-              <Link
-                key={item.key}
-                href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-              >
-                {t(item.key)}
-              </Link>
-            ))}
+            {navHrefs.map((item) => {
+              const active = pathname === item.href;
+              return (
+                <Link
+                  key={item.key}
+                  href={item.href}
+                  className={cn(
+                    "text-sm font-medium transition-colors",
+                    active
+                      ? "text-foreground"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                  aria-current={active ? "page" : undefined}
+                >
+                  {t(item.key)}
+                </Link>
+              );
+            })}
           </div>
 
           <div className="hidden md:flex items-center gap-3">
@@ -79,16 +90,25 @@ export function Navbar() {
         {isOpen && (
           <div className="md:hidden py-4 border-t border-border/50">
             <div className="flex flex-col gap-4">
-              {navHrefs.map((item) => (
-                <Link
-                  key={item.key}
-                  href={item.href}
-                  className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {t(item.key)}
-                </Link>
-              ))}
+              {navHrefs.map((item) => {
+                const active = pathname === item.href;
+                return (
+                  <Link
+                    key={item.key}
+                    href={item.href}
+                    className={cn(
+                      "text-sm font-medium transition-colors",
+                      active
+                        ? "text-foreground"
+                        : "text-muted-foreground hover:text-foreground"
+                    )}
+                    aria-current={active ? "page" : undefined}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {t(item.key)}
+                  </Link>
+                );
+              })}
               <div className="flex items-center gap-4 pt-4 border-t border-border/50">
                 {socialLinks.map((social) => (
                   <a
