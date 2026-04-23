@@ -13,9 +13,8 @@ const navLinks = [
 ];
 
 const socialLinks = [
-  { href: "https://github.com", icon: Github, label: "GitHub" },
-  { href: "https://twitter.com", icon: Twitter, label: "Twitter" },
-  { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
+  { href: "https://github.com/joaogabriellima", icon: Github, label: "GitHub" },
+  { href: "https://www.linkedin.com/in/joaoggabriellima/", icon: Linkedin, label: "LinkedIn" },
 ];
 
 export function Navbar() {

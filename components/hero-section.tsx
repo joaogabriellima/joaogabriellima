@@ -6,6 +6,8 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+import portrait from "@/public/portrait.jpeg";
+
 export function HeroSection() {
   const [email, setEmail] = useState("");
 
@@ -48,20 +50,18 @@ export function HeroSection() {
           <div className="space-y-8 text-center lg:text-left">
             <div className="space-y-4">
               <p className="text-sm font-medium text-primary tracking-wide uppercase">
-                Olá, eu sou
+                Olá, eu sou João Gabriel Lima
               </p>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight text-balance">
-                Desenvolvedor{" "}
-                <span className="bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                  Criativo
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight">
+                <span className="block sm:whitespace-nowrap">Produtos digitais</span>
+                <span className="block bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent sm:whitespace-nowrap">
+                  do zero ao deploy
                 </span>
               </h1>
             </div>
 
             <p className="text-lg text-muted-foreground max-w-lg mx-auto lg:mx-0 text-pretty">
-              Transformo ideias em experiências digitais memoráveis. 
-              Especializado em criar interfaces modernas, acessíveis e 
-              de alta performance.
+              Interfaces modernas, alta performance e foco no que realmente importa: funcionar bem.
             </p>
 
             {/* Email Form */}
@@ -81,7 +81,7 @@ export function HeroSection() {
                 type="submit"
                 className="h-12 px-6 rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground font-medium gap-2 group"
               >
-                Começar
+                Falar comigo
                 <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </form>
@@ -89,17 +89,17 @@ export function HeroSection() {
             {/* Stats */}
             <div className="flex items-center justify-center lg:justify-start gap-8 pt-4">
               <div className="text-center lg:text-left">
-                <p className="text-2xl sm:text-3xl font-bold text-foreground">5+</p>
+                <p className="text-2xl sm:text-3xl font-bold text-foreground">9+</p>
                 <p className="text-sm text-muted-foreground">Anos de experiência</p>
               </div>
               <div className="w-px h-12 bg-border" />
               <div className="text-center lg:text-left">
-                <p className="text-2xl sm:text-3xl font-bold text-foreground">50+</p>
+                <p className="text-2xl sm:text-3xl font-bold text-foreground">20+</p>
                 <p className="text-sm text-muted-foreground">Projetos entregues</p>
               </div>
               <div className="w-px h-12 bg-border" />
               <div className="text-center lg:text-left">
-                <p className="text-2xl sm:text-3xl font-bold text-foreground">30+</p>
+                <p className="text-2xl sm:text-3xl font-bold text-foreground">10+</p>
                 <p className="text-sm text-muted-foreground">Clientes felizes</p>
               </div>
             </div>
@@ -120,7 +120,7 @@ export function HeroSection() {
               {/* Image */}
               <div className="relative w-full h-full rounded-3xl overflow-hidden border-4 border-background shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces"
+                  src={portrait}
                   alt="Foto de perfil"
                   fill
                   className="object-cover"
@@ -128,13 +128,6 @@ export function HeroSection() {
                 />
               </div>
 
-              {/* Floating Badge */}
-              <div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-card rounded-2xl p-4 shadow-xl border border-border/50">
-                <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                  <p className="text-sm font-medium text-foreground">Disponível para projetos</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
