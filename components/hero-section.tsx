@@ -20,7 +20,7 @@ export function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center overflow-x-clip pt-16 lg:pt-20">
+    <section className="relative flex min-h-screen items-center overflow-x-clip pt-site-header">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 md:w-[500px] md:h-[500px] bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 md:w-[400px] md:h-[400px] bg-primary/5 rounded-full blur-3xl" />
@@ -38,7 +38,7 @@ export function HeroSection() {
         />
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div className="relative mx-auto w-full max-w-[var(--width-wide)] px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="min-w-0 space-y-8 text-center lg:text-left">
             <div className="space-y-4">
@@ -47,7 +47,7 @@ export function HeroSection() {
               </p>
               <h1 className="text-balance text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight">
                 <span className="block">{t("headline1")}</span>
-                <span className="block bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                <span className="text-gradient-brand block">
                   {t("headline2")}
                 </span>
               </h1>

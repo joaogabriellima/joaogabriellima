@@ -3,7 +3,19 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* --------------------------------------------------------------------------
+   Design system — core tokens
+   - Semantic colors: shadcn-compatible (--background, --primary, …)
+   - Layout: site header height + readable / wide max widths
+   - Brand: gradient (hero) uses Tailwind from-primary + purple + pink
+   -------------------------------------------------------------------------- */
+
 :root {
+  /* Layout (navbar is h-16 = 4rem, lg:h-20 = 5rem — keep in sync) */
+  --site-header-h: 4rem;
+  --width-readable: 48rem; /* ~max-w-3xl — long-form & inner pages */
+  --width-wide: 80rem; /* max-w-7xl — marketing sections */
+
   --background: oklch(0.99 0.002 300);
   --foreground: oklch(0.15 0.01 280);
   --card: oklch(1 0 0);
@@ -37,6 +49,12 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --site-header-h: 5rem;
+  }
 }
 
 .dark {
@@ -121,5 +139,30 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Consistent top offset under fixed header */
+  .pt-site-header {
+    padding-top: var(--site-header-h);
+  }
+
+  /* Subtle page ambient (inner pages) — use with pointer-events-none wrapper */
+  .ds-ambient {
+    @apply pointer-events-none absolute inset-0 -z-10 overflow-x-clip;
+  }
+
+  .ds-ambient-blob-right {
+    @apply absolute -top-32 right-0 h-64 w-64 rounded-full bg-primary/5 blur-3xl md:h-80 md:w-80;
+  }
+
+  .ds-ambient-blob-left {
+    @apply absolute top-1/2 -left-20 h-48 w-48 rounded-full bg-primary/[0.04] blur-3xl;
+  }
+
+  /* Hero / marketing display gradient (matches site accent) */
+  .text-gradient-brand {
+    @apply bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent;
   }
 }

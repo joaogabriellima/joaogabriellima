@@ -46,6 +46,34 @@
       "metaTitle": "Contato | João Gabriel Lima",
       "heading": "Contato",
       "formLabel": "Formulário (campos de exemplo)"
+    },
+    "designSystem": {
+      "metaTitle": "Design system | João Gabriel Lima",
+      "heading": "Design system",
+      "intro": "Fundamentos, tokens e componentes shadcn/ui usados no site. Referência interna; fora do menu principal.",
+      "brandBody": "Gradiente de destaque (hero). Uma classe utilitária para manter o visual alinhado.",
+      "spacingNote": "Escala padrão do Tailwind; os valores em rem batem com as utilidades spacing-*.",
+      "radiusNote": "O --radius em globals.css alimenta os componentes shadcn (ex.: botões, cards).",
+      "sections": {
+        "layout": "Layout",
+        "colors": "Cores semânticas",
+        "typography": "Tipografia",
+        "spacing": "Espaçamento",
+        "radius": "Raios",
+        "brand": "Gradiente de marca",
+        "components": "Componentes"
+      },
+      "swatchNames": {
+        "background": "Fundo",
+        "foreground": "Texto / ênfase",
+        "card": "Superfície (card)",
+        "primary": "Primária",
+        "secondary": "Secundária",
+        "muted": "Discreto (muted)",
+        "accent": "Acento",
+        "destructive": "Destrutivo / erro",
+        "border": "Borda"
+      }
     }
   }
 }

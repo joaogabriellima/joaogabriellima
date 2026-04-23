@@ -46,6 +46,34 @@
       "metaTitle": "Contact | João Gabriel Lima",
       "heading": "Contact",
       "formLabel": "Form (placeholder fields)"
+    },
+    "designSystem": {
+      "metaTitle": "Design system | João Gabriel Lima",
+      "heading": "Design system",
+      "intro": "Foundations, tokens, and shadcn/ui primitives for this site. For author reference; not in the main navigation.",
+      "brandBody": "Hero-style gradient; single utility class to keep copy consistent.",
+      "spacingNote": "Follows Tailwind’s default scale; rem values match spacing-* utilities.",
+      "radiusNote": "The base --radius in globals.css drives shadcn components (e.g. buttons, cards).",
+      "sections": {
+        "layout": "Layout",
+        "colors": "Semantic colors",
+        "typography": "Typography",
+        "spacing": "Spacing",
+        "radius": "Radius",
+        "brand": "Brand gradient",
+        "components": "Components"
+      },
+      "swatchNames": {
+        "background": "background",
+        "foreground": "foreground",
+        "card": "card",
+        "primary": "primary",
+        "secondary": "secondary",
+        "muted": "muted",
+        "accent": "accent",
+        "destructive": "destructive",
+        "border": "border"
+      }
     }
   }
 }
