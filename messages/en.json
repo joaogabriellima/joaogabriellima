@@ -35,7 +35,9 @@
     "send": "Send message",
     "sending": "Sending…",
     "success": "Thanks — I will reply as soon as I can.",
-    "error": "Could not send. Check your connection or try email instead."
+    "error": "Could not send. Check your connection or try email instead.",
+    "validationName": "Please enter your name.",
+    "validationMessage": "The message must be at least 10 characters."
   },
   "language": {
     "label": "Language",

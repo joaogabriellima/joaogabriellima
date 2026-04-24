@@ -15,27 +15,52 @@ export function ContactForm({ className }: { className?: string }) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [errorKey, setErrorKey] = useState<"network" | "validationName" | "validationMessage" | null>(
+    null
+  );
 
   function clearFeedback() {
-    if (status === "error" || status === "success") setStatus("idle");
+    if (status === "error" || status === "success") {
+      setStatus("idle");
+      setErrorKey(null);
+    }
   }
 
   async function onSubmit(e: React.FormEvent) {
     e.preventDefault();
+    const nameTrim = name.trim();
+    const emailTrim = email.trim();
+    const messageTrim = message.trim();
+
+    if (nameTrim.length < 1) {
+      setErrorKey("validationName");
+      setStatus("error");
+      return;
+    }
+    if (messageTrim.length < 10) {
+      setErrorKey("validationMessage");
+      setStatus("error");
+      return;
+    }
+
+    setErrorKey(null);
     setStatus("sending");
     const result = await submitContact({
       source: "contact",
-      email: email.trim(),
-      name: name.trim(),
-      message: message.trim(),
+      email: emailTrim,
+      name: nameTrim,
+      message: messageTrim,
     });
+
     if (result.ok) {
       setStatus("success");
+      setErrorKey(null);
       setName("");
       setEmail("");
       setMessage("");
       return;
     }
+    setErrorKey("network");
     setStatus("error");
   }
 
@@ -43,7 +68,6 @@ export function ContactForm({ className }: { className?: string }) {
     <form
       onSubmit={onSubmit}
       className={cn("space-y-4", className)}
-      noValidate
     >
       <div className="space-y-2">
         <Label htmlFor="contact-name">{t("name")}</Label>
@@ -108,9 +132,13 @@ export function ContactForm({ className }: { className?: string }) {
           {t("success")}
         </p>
       ) : null}
-      {status === "error" ? (
+      {status === "error" && errorKey ? (
         <p className="text-sm text-destructive" role="alert">
-          {t("error")}
+          {errorKey === "network"
+            ? t("error")
+            : errorKey === "validationName"
+              ? t("validationName")
+              : t("validationMessage")}
         </p>
       ) : null}
     </form>

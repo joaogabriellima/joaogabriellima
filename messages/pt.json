@@ -35,7 +35,9 @@
     "send": "Enviar",
     "sending": "Enviando…",
     "success": "Obrigado — respondo o quanto antes.",
-    "error": "Não foi possível enviar. Verifique a conexão ou use o e-mail."
+    "error": "Não foi possível enviar. Verifique a conexão ou use o e-mail.",
+    "validationName": "Informe um nome.",
+    "validationMessage": "A mensagem precisa ter pelo menos 10 caracteres."
   },
   "language": {
     "label": "Idioma",
