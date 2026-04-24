@@ -1,11 +1,21 @@
+import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/navbar";
 
 type InnerPageLayoutProps = {
   title: string;
   children: React.ReactNode;
+  /** Merges with default content padding (e.g. contact: tighter vertical for above-the-fold). */
+  contentClassName?: string;
+  /** Merges with default h1 margin. */
+  headingClassName?: string;
 };
 
-export function InnerPageLayout({ title, children }: InnerPageLayoutProps) {
+export function InnerPageLayout({
+  title,
+  children,
+  contentClassName,
+  headingClassName,
+}: InnerPageLayoutProps) {
   return (
     <div className="min-h-screen">
       <Navbar />
@@ -14,8 +24,18 @@ export function InnerPageLayout({ title, children }: InnerPageLayoutProps) {
           <div className="ds-ambient-blob-right" />
           <div className="ds-ambient-blob-left" />
         </div>
-        <div className="mx-auto w-full min-w-0 max-w-[var(--width-readable)] px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-          <h1 className="mb-8 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+        <div
+          className={cn(
+            "mx-auto w-full min-w-0 max-w-[var(--width-readable)] px-4 py-12 sm:px-6 sm:py-16 lg:px-8",
+            contentClassName
+          )}
+        >
+          <h1
+            className={cn(
+              "mb-8 text-3xl font-bold tracking-tight text-foreground sm:text-4xl",
+              headingClassName
+            )}
+          >
             {title}
           </h1>
           {children}

@@ -19,10 +19,23 @@
     "sub": "Modern interfaces, high performance and a focus on what matters: shipping things that actually works.",
     "emailPlaceholder": "you@email.com",
     "cta": "Get in touch",
+    "formSending": "Sending…",
+    "formSuccess": "Thanks — I got your message and will get back to you soon.",
+    "formError": "Could not send right now. Please try again or email me directly.",
     "statsYears": "Years of experience",
     "statsProjects": "Projects shipped",
     "statsClients": "Happy clients",
     "portraitAlt": "Profile photo"
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "messageHint": "A few words or more—enough to describe your request.",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thanks — I will reply as soon as I can.",
+    "error": "Could not send. Check your connection or try email instead."
   },
   "language": {
     "label": "Language",
@@ -43,9 +56,13 @@
       "heading": "Services"
     },
     "contact": {
-      "metaTitle": "Contact | João Gabriel Lima",
+      "metaTitle": "Contact João Gabriel Lima | Web developer",
+      "metaDescription": "Contact João Gabriel Lima for web development, product work, or collaborations. Use the form to send your name, email, and message—replies usually within a few business days.",
       "heading": "Contact",
-      "formLabel": "Form (placeholder fields)"
+      "introP1": "Use this page to reach out about projects, roles, or partnerships. Whether you need a product built, help shipping to production, or a technical conversation, send a short note and I will get back to you.",
+      "introP2": "I read every message myself. For the fastest reply, include what you are looking for and any useful context (timeline, stack, or links).",
+      "formTitle": "Send a message",
+      "formIntro": "Enter your name and email, write a few lines (at least one short sentence), then press send. You will see a confirmation here when it goes through."
     },
     "designSystem": {
       "metaTitle": "Design system | João Gabriel Lima",

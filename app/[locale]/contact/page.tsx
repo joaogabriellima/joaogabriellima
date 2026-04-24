@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { ContactForm } from "@/components/contact-form";
 import { InnerPageLayout } from "@/components/inner-page-layout";
-import { PlaceholderLorem } from "@/components/placeholder-lorem";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -9,7 +9,10 @@ type PageProps = {
 export async function generateMetadata({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "pages" });
-  return { title: t("contact.metaTitle") };
+  return {
+    title: t("contact.metaTitle"),
+    description: t("contact.metaDescription"),
+  };
 }
 
 export default async function ContactPage({ params }: PageProps) {
@@ -20,24 +23,19 @@ export default async function ContactPage({ params }: PageProps) {
   return (
     <InnerPageLayout title={t("contact.heading")}>
       <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-12">
-        <div>
-          <PlaceholderLorem
-            extraParagraphs={[
-              "Aenean vehicula leo a erat tempus, vitae tincidunt nisl convallis. Nunc a magna a lectus tincidunt tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-            ]}
-          />
+        <div className="space-y-4 text-pretty text-base leading-relaxed text-muted-foreground sm:text-lg">
+          <p className="text-foreground/90">{t("contact.introP1")}</p>
+          <p>{t("contact.introP2")}</p>
         </div>
         <div>
           <div className="rounded-2xl border border-border/60 bg-card/30 p-6 sm:p-8">
-            <p className="mb-4 text-sm font-medium text-muted-foreground">
-              {t("contact.formLabel")}
+            <h2 className="text-lg font-semibold tracking-tight text-foreground">
+              {t("contact.formTitle")}
+            </h2>
+            <p className="mb-5 mt-1.5 text-sm leading-relaxed text-muted-foreground">
+              {t("contact.formIntro")}
             </p>
-            <div className="space-y-4" aria-hidden>
-              <div className="h-10 rounded-lg border border-dashed border-border/80 bg-background/50" />
-              <div className="h-10 rounded-lg border border-dashed border-border/80 bg-background/50" />
-              <div className="h-28 rounded-lg border border-dashed border-border/80 bg-background/50" />
-              <div className="h-11 w-full max-w-xs rounded-lg border border-dashed border-primary/30 bg-primary/5" />
-            </div>
+            <ContactForm />
           </div>
         </div>
       </div>

@@ -19,10 +19,23 @@
     "sub": "Interfaces rápidas e modernas, feitas pra funcionar bem e dar resultado.",
     "emailPlaceholder": "seu@email.com",
     "cta": "Falar comigo",
+    "formSending": "Enviando…",
+    "formSuccess": "Recebi — respondo em breve. Obrigado!",
+    "formError": "Não deu para enviar agora. Tente de novo ou mande um e-mail.",
     "statsYears": "Anos de experiência",
     "statsProjects": "Projetos entregues",
     "statsClients": "Clientes felizes",
     "portraitAlt": "Foto de perfil"
+  },
+  "contactForm": {
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "messageHint": "Algumas palavras ou mais — o suficiente para descrever o que você precisa.",
+    "send": "Enviar",
+    "sending": "Enviando…",
+    "success": "Obrigado — respondo o quanto antes.",
+    "error": "Não foi possível enviar. Verifique a conexão ou use o e-mail."
   },
   "language": {
     "label": "Idioma",
@@ -43,9 +56,13 @@
       "heading": "Serviços"
     },
     "contact": {
-      "metaTitle": "Contato | João Gabriel Lima",
+      "metaTitle": "Contato — João Gabriel Lima | Desenvolvimento web",
+      "metaDescription": "Fale com João Gabriel Lima sobre desenvolvimento web, produtos digitais ou projetos. Use o formulário com nome, e-mail e mensagem — respostas em poucos dias úteis.",
       "heading": "Contato",
-      "formLabel": "Formulário (campos de exemplo)"
+      "introP1": "Use esta página para projetos, vagas ou parcerias. Se você precisa de um produto web, apoio até a produção ou uma conversa técnica, envie uma mensagem que eu respondo.",
+      "introP2": "Eu leio cada mensagem. Para agilizar, diga o que você precisa e, se puder, contexto útil (prazo, stack ou links).",
+      "formTitle": "Enviar mensagem",
+      "formIntro": "Preencha nome e e-mail, escreva pelo menos uma frase curta na mensagem e clique em enviar. Uma confirmação aparece aqui quando der certo."
     },
     "designSystem": {
       "metaTitle": "Design system | João Gabriel Lima",

@@ -6,17 +6,26 @@ import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { submitContact } from "@/lib/submit-contact";
+import { cn } from "@/lib/utils";
 
 import portrait from "@/public/portrait.jpeg";
 
 export function HeroSection() {
   const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const t = useTranslations("hero");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Email submitted:", email);
-    setEmail("");
+    setStatus("sending");
+    const result = await submitContact({ source: "hero", email: email.trim() });
+    if (result.ok) {
+      setStatus("success");
+      setEmail("");
+      return;
+    }
+    setStatus("error");
   };
 
   return (
@@ -57,26 +66,47 @@ export function HeroSection() {
               {t("sub")}
             </p>
 
-            <form
-              onSubmit={handleSubmit}
-              className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto lg:mx-0"
-            >
-              <Input
-                type="email"
-                placeholder={t("emailPlaceholder")}
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="h-12 rounded-xl bg-card border-border/50 focus:border-primary"
-                required
-              />
-              <Button
-                type="submit"
-                className="h-12 px-6 rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground font-medium gap-2 group"
+            <div className="max-w-md mx-auto w-full space-y-2 lg:mx-0">
+              <form
+                onSubmit={handleSubmit}
+                className="flex flex-col gap-3 sm:flex-row"
               >
-                {t("cta")}
-                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </form>
+                <Input
+                  type="email"
+                  name="email"
+                  autoComplete="email"
+                  placeholder={t("emailPlaceholder")}
+                  value={email}
+                  onChange={(e) => {
+                    setEmail(e.target.value);
+                    if (status === "error" || status === "success") setStatus("idle");
+                  }}
+                  className="h-12 rounded-xl bg-card border-border/50 focus:border-primary"
+                  required
+                  disabled={status === "sending"}
+                />
+                <Button
+                  type="submit"
+                  disabled={status === "sending"}
+                  className="h-12 px-6 rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground font-medium gap-2 group shrink-0"
+                >
+                  {status === "sending" ? t("formSending") : t("cta")}
+                  <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </form>
+              {(status === "success" || status === "error") && (
+                <p
+                  className={cn(
+                    "text-sm",
+                    status === "success" && "text-primary",
+                    status === "error" && "text-destructive"
+                  )}
+                  role={status === "error" ? "alert" : "status"}
+                >
+                  {status === "success" ? t("formSuccess") : t("formError")}
+                </p>
+              )}
+            </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-8 pt-4">
               <div className="text-center lg:text-left">
