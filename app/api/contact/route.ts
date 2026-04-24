@@ -32,7 +32,7 @@ function buildEmailHtml(payload: ContactRequest): string {
 
 export async function POST(req: Request) {
   const key = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO_EMAIL;
+  const to = process.env.TO_EMAIL;
   const from = process.env.RESEND_FROM ?? "Portfolio <onboarding@resend.dev>";
 
   if (!key || !to) {
