@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "title": "João Gabriel Lima | Desenvolvimento web e produtos digitais",
+    "description": "Crio e entrego produtos web de ponta a ponta: UX, front-end e aplicações prontas para produção.. Veja projetos, experiência e como falar comigo."
+  },
+  "nav": {
+    "logo": "Portfólio",
+    "about": "Sobre",
+    "works": "Trabalhos",
+    "services": "Serviços",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou João Gabriel Lima",
+    "headline1": "Produtos digitais",
+    "headline2": "do zero ao deploy",
+    "sub": "Interfaces rápidas e modernas, feitas pra funcionar bem e dar resultado.",
+    "emailPlaceholder": "seu@email.com",
+    "cta": "Falar comigo",
+    "formSending": "Enviando…",
+    "formSuccess": "Recebi — respondo em breve. Obrigado!",
+    "formError": "Não deu para enviar agora. Tente de novo ou mande um e-mail.",
+    "statsYears": "Anos de experiência",
+    "statsProjects": "Projetos entregues",
+    "statsClients": "Clientes felizes",
+    "portraitAlt": "Foto de perfil"
+  },
+  "contactForm": {
+    "name": "Nome",
+    "email": "E-mail",
+    "message": "Mensagem",
+    "messageHint": "Algumas palavras ou mais — o suficiente para descrever o que você precisa.",
+    "send": "Enviar",
+    "sending": "Enviando…",
+    "success": "Obrigado — respondo o quanto antes.",
+    "error": "Não foi possível enviar. Verifique a conexão ou use o e-mail.",
+    "validationName": "Informe um nome.",
+    "validationMessage": "A mensagem precisa ter pelo menos 10 caracteres."
+  },
+  "language": {
+    "label": "Idioma",
+    "pt": "PT",
+    "en": "EN"
+  },
+  "pages": {
+    "about": {
+      "metaTitle": "Sobre | João Gabriel Lima",
+      "heading": "Sobre"
+    },
+    "works": {
+      "metaTitle": "Trabalhos | João Gabriel Lima",
+      "heading": "Trabalhos"
+    },
+    "services": {
+      "metaTitle": "Serviços | João Gabriel Lima",
+      "heading": "Serviços"
+    },
+    "contact": {
+      "metaTitle": "Contato — João Gabriel Lima | Desenvolvimento web",
+      "metaDescription": "Fale com João Gabriel Lima sobre desenvolvimento web, produtos digitais ou projetos. Use o formulário com nome, e-mail e mensagem — respostas em poucos dias úteis.",
+      "heading": "Contato",
+      "introP1": "Use esta página para projetos, vagas ou parcerias. Se você precisa de um produto web, apoio até a produção ou uma conversa técnica, envie uma mensagem que eu respondo.",
+      "introP2": "Eu leio cada mensagem. Para agilizar, diga o que você precisa e, se puder, contexto útil (prazo, stack ou links).",
+      "formTitle": "Enviar mensagem",
+      "formIntro": "Preencha nome e e-mail, escreva pelo menos uma frase curta na mensagem e clique em enviar. Uma confirmação aparece aqui quando der certo."
+    },
+    "designSystem": {
+      "metaTitle": "Design system | João Gabriel Lima",
+      "heading": "Design system",
+      "intro": "Fundamentos, tokens e componentes shadcn/ui usados no site. Referência interna; fora do menu principal.",
+      "brandBody": "Gradiente de destaque (hero). Uma classe utilitária para manter o visual alinhado.",
+      "spacingNote": "Escala padrão do Tailwind; os valores em rem batem com as utilidades spacing-*.",
+      "radiusNote": "O --radius em globals.css alimenta os componentes shadcn (ex.: botões, cards).",
+      "sections": {
+        "layout": "Layout",
+        "colors": "Cores semânticas",
+        "typography": "Tipografia",
+        "spacing": "Espaçamento",
+        "radius": "Raios",
+        "brand": "Gradiente de marca",
+        "components": "Componentes"
+      },
+      "swatchNames": {
+        "background": "Fundo",
+        "foreground": "Texto / ênfase",
+        "card": "Superfície (card)",
+        "primary": "Primária",
+        "secondary": "Secundária",
+        "muted": "Discreto (muted)",
+        "accent": "Acento",
+        "destructive": "Destrutivo / erro",
+        "border": "Borda"
+      }
+    }
+  }
+}

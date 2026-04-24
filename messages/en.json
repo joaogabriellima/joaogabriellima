@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "title": "João Gabriel Lima | Web Developer & Product Builder",
+    "description": "I design and build web products end to end: UX, front-end, and production-ready delivery. Browse projects, experience, and how to reach me."
+  },
+  "nav": {
+    "logo": "Portfolio",
+    "about": "About",
+    "works": "Work",
+    "services": "Services",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "greeting": "Hi, I'm João Gabriel Lima",
+    "headline1": "Digital products",
+    "headline2": "from idea to production",
+    "sub": "Modern interfaces, high performance and a focus on what matters: shipping things that actually works.",
+    "emailPlaceholder": "you@email.com",
+    "cta": "Get in touch",
+    "formSending": "Sending…",
+    "formSuccess": "Thanks — I got your message and will get back to you soon.",
+    "formError": "Could not send right now. Please try again or email me directly.",
+    "statsYears": "Years of experience",
+    "statsProjects": "Projects shipped",
+    "statsClients": "Happy clients",
+    "portraitAlt": "Profile photo"
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "messageHint": "A few words or more—enough to describe your request.",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thanks — I will reply as soon as I can.",
+    "error": "Could not send. Check your connection or try email instead.",
+    "validationName": "Please enter your name.",
+    "validationMessage": "The message must be at least 10 characters."
+  },
+  "language": {
+    "label": "Language",
+    "pt": "PT",
+    "en": "EN"
+  },
+  "pages": {
+    "about": {
+      "metaTitle": "About | João Gabriel Lima",
+      "heading": "About"
+    },
+    "works": {
+      "metaTitle": "Work | João Gabriel Lima",
+      "heading": "Work"
+    },
+    "services": {
+      "metaTitle": "Services | João Gabriel Lima",
+      "heading": "Services"
+    },
+    "contact": {
+      "metaTitle": "Contact João Gabriel Lima | Web developer",
+      "metaDescription": "Contact João Gabriel Lima for web development, product work, or collaborations. Use the form to send your name, email, and message—replies usually within a few business days.",
+      "heading": "Contact",
+      "introP1": "Use this page to reach out about projects, roles, or partnerships. Whether you need a product built, help shipping to production, or a technical conversation, send a short note and I will get back to you.",
+      "introP2": "I read every message myself. For the fastest reply, include what you are looking for and any useful context (timeline, stack, or links).",
+      "formTitle": "Send a message",
+      "formIntro": "Enter your name and email, write a few lines (at least one short sentence), then press send. You will see a confirmation here when it goes through."
+    },
+    "designSystem": {
+      "metaTitle": "Design system | João Gabriel Lima",
+      "heading": "Design system",
+      "intro": "Foundations, tokens, and shadcn/ui primitives for this site. For author reference; not in the main navigation.",
+      "brandBody": "Hero-style gradient; single utility class to keep copy consistent.",
+      "spacingNote": "Follows Tailwind’s default scale; rem values match spacing-* utilities.",
+      "radiusNote": "The base --radius in globals.css drives shadcn components (e.g. buttons, cards).",
+      "sections": {
+        "layout": "Layout",
+        "colors": "Semantic colors",
+        "typography": "Typography",
+        "spacing": "Spacing",
+        "radius": "Radius",
+        "brand": "Brand gradient",
+        "components": "Components"
+      },
+      "swatchNames": {
+        "background": "background",
+        "foreground": "foreground",
+        "card": "card",
+        "primary": "primary",
+        "secondary": "secondary",
+        "muted": "muted",
+        "accent": "accent",
+        "destructive": "destructive",
+        "border": "border"
+      }
+    }
+  }
+}
