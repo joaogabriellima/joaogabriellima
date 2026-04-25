@@ -55,7 +55,30 @@
     },
     "services": {
       "metaTitle": "Serviços | João Gabriel Lima",
-      "heading": "Serviços"
+      "heading": "Serviços",
+      "intro": "Construo e cuido de produtos que precisam funcionar de verdade. Abaixo, o que isso costuma significar na prática.",
+      "items": {
+        "digitalProducts": {
+          "title": "Desenvolvimento de produtos digitais",
+          "kicker": "De landing page a MVP",
+          "description": "Landing pages, sites institucionais, sistemas internos, apps de agendamento e MVPs que você consegue colocar na frente de gente de verdade."
+        },
+        "evolution": {
+          "title": "Evolução e manutenção de produtos",
+          "kicker": "Para quem já tem algo no ar",
+          "description": "Ajustes, correção de bugs, performance, melhorias e refatoração. Uma boa saída se você já tem base rodando e precisa de apoio com os pés no chão."
+        },
+        "consulting": {
+          "title": "Consultoria e direção técnica",
+          "kicker": "Antes de construir em excesso",
+          "description": "Validação de ideia, arquitetura inicial, escolha de stack, o que fazer e o que evitar, e um MVP realista. Funciona muito bem para autônomos, pequenos negócios e quem já tem algo no ar."
+        },
+        "dataAnalytics": {
+          "title": "Dados e análise de uso",
+          "kicker": "Tome decisões baseadas em dados",
+          "description": "Eventos, acompanhamento de comportamento e entender como o produto é usado na prática. Um diferencial quando você precisa medir o que importa."
+        }
+      }
     },
     "contact": {
       "metaTitle": "Contato — João Gabriel Lima | Desenvolvimento web",
