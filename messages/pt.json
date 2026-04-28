@@ -51,7 +51,17 @@
     },
     "works": {
       "metaTitle": "Trabalhos | João Gabriel Lima",
-      "heading": "Trabalhos"
+      "heading": "Trabalhos",
+      "readMore": "Ler mais",
+      "readLess": "Mostrar menos",
+      "intro": "Alguns projetos em que entreguei ou fui o responsável por boa parte.",
+      "items": {
+        "desce": {
+          "title": "desce.ai",
+          "kicker": "Gestão inteligente para mercadinhos autônomos",
+          "description": "Plataforma criada para organizar o estoque de mercadinhos autônomos em condomínios, com controle de produtos, categorias e movimentações. O foco é dar mais clareza para a operação, facilitar a reposição e preparar o negócio para futuras automações e análises de venda."
+        }
+      }
     },
     "services": {
       "metaTitle": "Serviços | João Gabriel Lima",

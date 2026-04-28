@@ -51,7 +51,17 @@
     },
     "works": {
       "metaTitle": "Work | João Gabriel Lima",
-      "heading": "Work"
+      "heading": "Work",
+      "readMore": "Read more",
+      "readLess": "Show less",
+      "intro": "A few things I've shipped or owned end to end. Each entry is short: the situation, what we built, and what it changed in practice.",
+      "items": {
+        "desce": {
+          "title": "desce.ai",
+          "kicker": "Inventory for unmanned building mini markets",
+          "description": "Stock and catalog for small autonomous markets in condominiums, replacing ad hoc counts on paper and scattered notes. The app keeps a live view of what is on the shelf, groups products by category, and records movement so you can look back when something does not add up. Admins get a clear picture of the operation; residents can check before they go downstairs, for example whether the beer is in stock, then search and go."
+        }
+      }
     },
     "services": {
       "metaTitle": "Services | João Gabriel Lima",
