@@ -47,7 +47,13 @@
   "pages": {
     "about": {
       "metaTitle": "About | João Gabriel Lima",
-      "heading": "About"
+      "metaDescription": "Developer focused on web products and ideas that ship: delivery, evolving existing systems, consulting, and product direction.",
+      "heading": "About",
+      "p1": "I'm a software developer focused on turning ideas into products that actually work.",
+      "p2": "I mainly work with web applications, digital products, and systems that are already live — from landing pages and admin platforms to performance improvements, bug fixing, and more strategic product decisions.",
+      "p3": "I also provide technical consulting, MVP structuring, analytics, and product direction for people who need clarity before writing code — without miracle promises or endless stack debates.",
+      "p4": "I started programming around 2011, building ElfBot scripts for Tibia. The world and the stack have changed a lot since then, but the curiosity to learn programming started back then.",
+      "p5": "Outside of work, a good part of my free time goes to video games — I’m a big fan of Elden Ring and souls-like games in general. At home, besides my wife, I share the roof with my dogs Sabrino and Soneca; even though we pay the bills, they seem pretty convinced they’re the real owners of the house."
     },
     "works": {
       "metaTitle": "Work | João Gabriel Lima",
