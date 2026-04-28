@@ -51,11 +51,44 @@
     },
     "works": {
       "metaTitle": "Work | João Gabriel Lima",
-      "heading": "Work"
+      "heading": "Work",
+      "readMore": "Read more",
+      "readLess": "Show less",
+      "intro": "A few things I've shipped or owned end to end. Each entry is short: the situation, what we built, and what it changed in practice.",
+      "items": {
+        "desce": {
+          "title": "desce.ai",
+          "kicker": "Inventory for unmanned building mini markets",
+          "description": "Stock and catalog for small autonomous markets in condominiums, replacing ad hoc counts on paper and scattered notes. The app keeps a live view of what is on the shelf, groups products by category, and records movement so you can look back when something does not add up. Admins get a clear picture of the operation; residents can check before they go downstairs, for example whether the beer is in stock, then search and go."
+        }
+      }
     },
     "services": {
       "metaTitle": "Services | João Gabriel Lima",
-      "heading": "Services"
+      "heading": "Services",
+      "intro": "I build and maintain products that have to work in the real world. Here is what that usually means in practice.",
+      "items": {
+        "digitalProducts": {
+          "title": "Digital product development",
+          "kicker": "From landing pages to MVPs",
+          "description": "Landing pages, marketing sites, internal tools, booking apps, and MVPs you can show to real users. This is the main line of work."
+        },
+        "evolution": {
+          "title": "Evolution and maintenance",
+          "kicker": "For code that is already in production",
+          "description": "Fixes, bugs, performance work, small improvements, and refactors. A good fit if you already have something running and need steady, practical help."
+        },
+        "consulting": {
+          "title": "Consulting and technical direction",
+          "kicker": "Before you build too much",
+          "description": "Validating the idea, a sensible first architecture, stack choices, what to use and what to skip, and a realistic MVP plan. Works well for freelancers, small teams and who already have something in production."
+        },
+        "dataAnalytics": {
+          "title": "Data and usage analysis",
+          "kicker": "Make decisions based on data",
+          "description": "Events, funnels, and understanding how people actually use the product. Useful when you need to measure what matters, not just collect noise."
+        }
+      }
     },
     "contact": {
       "metaTitle": "Contact João Gabriel Lima | Web developer",
