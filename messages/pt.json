@@ -47,7 +47,13 @@
   "pages": {
     "about": {
       "metaTitle": "Sobre | João Gabriel Lima",
-      "heading": "Sobre"
+      "metaDescription": "Desenvolvedor focado em produtos web e ideias que saem do papel: desenvolvimento, evolução de sistemas, consultoria e direção de produto.",
+      "heading": "Sobre",
+      "p1": "Sou desenvolvedor de software com foco em transformar ideias em produtos que realmente funcionam.",
+      "p2": "Trabalho principalmente com aplicações web, produtos digitais e sistemas que já estão no ar. De landing pages e plataformas administrativas até melhorias de performance, correção de bugs e decisões mais estratégicas de produto.",
+      "p3": "Também faço consultoria técnica, estruturação de MVP, analytics e direção de produto para quem precisa de clareza antes de codar, sem promessa milagrosa nem novela de stack.",
+      "p4": "Comecei a programar por volta de 2011, fazendo scripts de ElfBot para Tibia. O mundo e a stack mudaram bastante, mas a curiosidade de aprender programação veio desde essa época.",
+      "p5": "Fora do trabalho, boa parte do tempo livre vai para o videogame, gosto muito de Elden Ring e souls-like no geral. Em casa, além da esposa, divido o teto com meus cachorrinhos Sabrino e Soneca; embora a gente pague os boletos, eles parecem bastante convencidos de que são os verdadeiros donos daqui."
     },
     "works": {
       "metaTitle": "Trabalhos | João Gabriel Lima",
