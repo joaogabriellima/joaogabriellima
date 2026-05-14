@@ -83,11 +83,11 @@ export function HeroSection() {
                   }}
                   className="h-12 rounded-xl bg-card border-border/50 focus:border-primary"
                   required
-                  disabled={status === "sending"}
+                  disabled
                 />
                 <Button
                   type="submit"
-                  disabled={status === "sending"}
+                  disabled
                   className="h-12 px-6 rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground font-medium gap-2 group shrink-0"
                 >
                   {status === "sending" ? t("formSending") : t("cta")}

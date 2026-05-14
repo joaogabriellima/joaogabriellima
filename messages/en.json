@@ -31,7 +31,7 @@
     "name": "Name",
     "email": "Email",
     "message": "Message",
-    "messageHint": "A few words or more—enough to describe your request.",
+    "messageHint": "Not available at the moment.",
     "send": "Send message",
     "sending": "Sending…",
     "success": "Thanks — I will reply as soon as I can.",

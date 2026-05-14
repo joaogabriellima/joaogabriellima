@@ -81,7 +81,7 @@ export function ContactForm({ className }: { className?: string }) {
             clearFeedback();
           }}
           required
-          disabled={status === "sending"}
+          disabled
           className="h-11"
         />
       </div>
@@ -98,7 +98,7 @@ export function ContactForm({ className }: { className?: string }) {
             clearFeedback();
           }}
           required
-          disabled={status === "sending"}
+          disabled
           className="h-11"
         />
       </div>
@@ -115,7 +115,7 @@ export function ContactForm({ className }: { className?: string }) {
           required
           minLength={10}
           rows={5}
-          disabled={status === "sending"}
+          disabled
           className="min-h-[120px] resize-y"
         />
         <p className="text-xs text-muted-foreground">{t("messageHint")}</p>
@@ -123,7 +123,7 @@ export function ContactForm({ className }: { className?: string }) {
       <Button
         type="submit"
         className="h-11 w-full sm:w-auto"
-        disabled={status === "sending"}
+        disabled
       >
         {status === "sending" ? t("sending") : t("send")}
       </Button>
