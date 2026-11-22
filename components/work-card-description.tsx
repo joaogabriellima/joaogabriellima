@@ -29,7 +29,7 @@ export function WorkCardDescription({ text }: WorkCardDescriptionProps) {
           <button
             type="button"
             onClick={() => setExpanded(false)}
-            className="mt-1.5 text-left text-sm font-medium text-primary underline-offset-4 hover:underline"
+            className="relative z-10 mt-1.5 text-left text-sm font-medium text-primary underline-offset-4 hover:underline"
           >
             {t("readLess")}
           </button>
@@ -38,7 +38,7 @@ export function WorkCardDescription({ text }: WorkCardDescriptionProps) {
         <button
           type="button"
           onClick={() => setExpanded(true)}
-          className="text-left text-sm font-medium text-primary underline-offset-4 hover:underline"
+          className="relative z-10 text-left text-sm font-medium text-primary underline-offset-4 hover:underline"
         >
           {t("readMore")}
         </button>

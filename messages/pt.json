@@ -66,6 +66,11 @@
           "title": "desce.ai",
           "kicker": "Gestão inteligente para mercadinhos autônomos",
           "description": "Plataforma criada para organizar o estoque de mercadinhos autônomos em condomínios, com controle de produtos, categorias e movimentações. O foco é dar mais clareza para a operação, facilitar a reposição e preparar o negócio para futuras automações e análises de venda."
+        },
+        "wahi": {
+          "title": "Wahi",
+          "kicker": "Organização da casa, compartilhada com quem mora junto",
+          "description": "Um espaço compartilhado para a vida doméstica: tarefas com recorrência e responsável, lista de mercado que atualiza em tempo real para todos da casa, contas e despesas do mês, rotina, histórico de manutenções, prestadores de serviço e um guia da casa que pode ser enviado a visitas. Cada casa é um espaço isolado, com convites por link, e o app funciona como PWA no celular, inclusive para consulta sem internet."
         }
       }
     },

@@ -66,6 +66,11 @@
           "title": "desce.ai",
           "kicker": "Inventory for unmanned building mini markets",
           "description": "Stock and catalog for small autonomous markets in condominiums, replacing ad hoc counts on paper and scattered notes. The app keeps a live view of what is on the shelf, groups products by category, and records movement so you can look back when something does not add up. Admins get a clear picture of the operation; residents can check before they go downstairs, for example whether the beer is in stock, then search and go."
+        },
+        "wahi": {
+          "title": "Wahi",
+          "kicker": "Home organization, shared with the people you live with",
+          "description": "A shared space for household life: recurring tasks with an assignee, a grocery list that updates in real time for everyone at home, monthly bills and expenses, routines, a maintenance log, service providers and a house guide you can send to guests. Each home is an isolated space with link invites, and the app works as a PWA on your phone, including read-only access offline."
         }
       }
     },

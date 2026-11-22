@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import { InnerPageLayout } from "@/components/inner-page-layout";
 import { WorkCardDescription } from "@/components/work-card-description";
@@ -36,7 +37,7 @@ export default async function WorksPage({ params }: PageProps) {
       <ul className="grid list-none gap-6 sm:grid-cols-2">
         {works.map((work) => (
           <li key={work.id}>
-            <div className="overflow-hidden rounded-2xl border border-border/60 bg-card/40 transition-colors hover:border-border">
+            <div className="group relative overflow-hidden rounded-2xl border border-border/60 bg-card/40 transition-colors hover:border-border has-[a:focus-visible]:ring-2 has-[a:focus-visible]:ring-ring">
               <div className="relative aspect-[16/10] w-full overflow-hidden bg-gradient-to-br from-primary/5 via-muted/50 to-primary/10">
                 <Image
                   src={work.image}
@@ -48,7 +49,24 @@ export default async function WorksPage({ params }: PageProps) {
               </div>
               <div className="p-4 sm:p-5">
                 <h2 className="font-semibold text-foreground">
-                  {t(workCopyKey(work.id, "title"))}
+                  {work.url ? (
+                    // The ::after overlay stretches the link over the whole card;
+                    // the description toggle sits above it (z-10).
+                    <a
+                      href={work.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 outline-none after:absolute after:inset-0 after:content-['']"
+                    >
+                      {t(workCopyKey(work.id, "title"))}
+                      <ArrowUpRight
+                        aria-hidden
+                        className="size-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary"
+                      />
+                    </a>
+                  ) : (
+                    t(workCopyKey(work.id, "title"))
+                  )}
                 </h2>
                 <p className="mt-1 text-sm text-muted-foreground">
                   {t(workCopyKey(work.id, "kicker"))}

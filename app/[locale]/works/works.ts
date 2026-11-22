@@ -1,4 +1,4 @@
-export type WorkId = "desce";
+export type WorkId = "desce" | "wahi";
 
 /**
  * Image paths are URLs from the site root — files sit in `public/`.
@@ -8,4 +8,9 @@ export type WorkId = "desce";
 export const works: ReadonlyArray<{
   id: WorkId;
   image: string;
-}> = [{ id: "desce", image: "/works/desce.png" }];
+  /** Live product. When set, the whole card links to it (new tab). */
+  url?: string;
+}> = [
+  { id: "desce", image: "/works/desce.png" },
+  { id: "wahi", image: "/works/wahi.png", url: "https://joinwahi.com.br" },
+];
